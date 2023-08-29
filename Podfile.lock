@@ -1,0 +1,34 @@
+PODS:
+  - Alamofire (5.7.1)
+  - DropDown (2.3.2)
+  - IQKeyboardManager (6.5.12)
+  - lottie-ios (4.2.0)
+  - SDWebImage (5.16.0):
+    - SDWebImage/Core (= 5.16.0)
+  - SDWebImage/Core (5.16.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - DropDown (= 2.3.2)
+  - IQKeyboardManager
+  - lottie-ios
+  - SDWebImage (~> 5.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - DropDown
+    - IQKeyboardManager
+    - lottie-ios
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  Alamofire: 0123a34370cb170936ae79a8df46cc62b2edeb88
+  DropDown: 7f87abecc28f9b4edad810fe1211c5c018c257e5
+  IQKeyboardManager: b1fd66ccf7a79095bdcc4a2735231586f744216e
+  lottie-ios: 809ecf2d460ed650a6aed7aa88b2ec45fab4779c
+  SDWebImage: 2aea163b50bfcb569a2726b6a754c54a4506fcf6
+
+PODFILE CHECKSUM: 8d97f6eccb7512e13756e6af79d838ec84aabcfb
+
+COCOAPODS: 1.11.3

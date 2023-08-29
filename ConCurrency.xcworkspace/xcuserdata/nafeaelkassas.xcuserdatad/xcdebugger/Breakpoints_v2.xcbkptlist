@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "23ED31E1-4641-43FB-B162-F408F6A468CF"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8B95A70E-665D-4BF8-8C4B-169762C96DAA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ConCurrency/Networking/APIManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "174"
+            endingLineNumber = "174"
+            landmarkName = "getLiveExchangeRatesData(from:toParameter:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A6A2808A-8ABF-44FB-84A5-66E963549E26"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ConCurrency/Networking/APIManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "168"
+            endingLineNumber = "168"
+            landmarkName = "getLiveExchangeRatesData(from:toParameter:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D329CEE2-7EA7-4E8D-A42B-310749ADABB9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ConCurrency/Controller/ConcurrencyViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D329CEE2-7EA7-4E8D-A42B-310749ADABB9 - eccee78c3923a94a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;ConCurrency.GetLiveExchangeRate&gt;) -&gt; () in ConCurrency.ConcurrencyViewController.viewWillAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "ConCurrency"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nafeaelkassas/Desktop/xCode/Diploma/ConcurrencyApp/ConCurrency/ConCurrency/Controller/ConcurrencyViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "100"
+                  endingLineNumber = "100"
+                  offsetFromSymbolStart = "293">
+               </Location>
+               <Location
+                  uuid = "D329CEE2-7EA7-4E8D-A42B-310749ADABB9 - 526f1c98c6bec366"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Array&lt;ConCurrency.GetLiveExchangeRate&gt;) -&gt; () in ConCurrency.ConcurrencyViewController.viewWillAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "ConCurrency"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nafeaelkassas/Desktop/xCode/Diploma/ConcurrencyApp/ConCurrency/ConCurrency/Controller/ConcurrencyViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "101"
+                  endingLineNumber = "101"
+                  offsetFromSymbolStart = "55">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7E597F61-EF66-410D-A205-44789004296E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ConCurrency/Networking/APIManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "161"
+            endingLineNumber = "161"
+            landmarkName = "getLiveExchangeRatesData(from:toParameter:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7E597F61-EF66-410D-A205-44789004296E - 5cbc457ce8d62c8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ConCurrency.APIManager.getLiveExchangeRatesData(from: Swift.String, toParameter: Swift.Array&lt;Swift.String&gt;, completion: (Swift.Array&lt;ConCurrency.GetLiveExchangeRate&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "ConCurrency"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nafeaelkassas/Desktop/xCode/Diploma/ConcurrencyApp/ConCurrency/ConCurrency/Networking/APIManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "161"
+                  endingLineNumber = "161"
+                  offsetFromSymbolStart = "1565">
+               </Location>
+               <Location
+                  uuid = "7E597F61-EF66-410D-A205-44789004296E - 3f62ae532ce5989f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ConCurrency.APIManager.getLiveExchangeRatesData(from: Swift.String, toParameter: Swift.Array&lt;Swift.String&gt;, completion: (Swift.Array&lt;ConCurrency.GetLiveExchangeRate&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "ConCurrency"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nafeaelkassas/Desktop/xCode/Diploma/ConcurrencyApp/ConCurrency/ConCurrency/Networking/APIManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "162"
+                  endingLineNumber = "162"
+                  offsetFromSymbolStart = "217">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "50D37DC0-9DBB-41FC-8F6A-02B845AF9453"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ConCurrency/Controller/ConcurrencyViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "245"
+            endingLineNumber = "245"
+            landmarkName = "fetchCurrencyInfo(from:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "50D37DC0-9DBB-41FC-8F6A-02B845AF9453 - 13a7e6b6440dd5b5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ConCurrency.ConcurrencyViewController.fetchCurrencyInfo(from: Swift.String) -&gt; ()"
+                  moduleName = "ConCurrency"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nafeaelkassas/Desktop/xCode/Diploma/ConcurrencyApp/ConCurrency/ConCurrency/Controller/ConcurrencyViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "245"
+                  endingLineNumber = "245"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "50D37DC0-9DBB-41FC-8F6A-02B845AF9453 - dc6ca028cf71de95"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;ConCurrency.GetLiveExchangeRate&gt;) -&gt; () in ConCurrency.ConcurrencyViewController.fetchCurrencyInfo(from: Swift.String) -&gt; ()"
+                  moduleName = "ConCurrency"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nafeaelkassas/Desktop/xCode/Diploma/ConcurrencyApp/ConCurrency/ConCurrency/Controller/ConcurrencyViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "245"
+                  endingLineNumber = "245"
+                  offsetFromSymbolStart = "195">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FavouriteTableViewController" customModule="ConCurrency" customModuleProvider="target">
+            <connections>
+                <outlet property="favouritesTableView" destination="2zk-Ts-L8C" id="QSC-kY-PWe"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="2zk-Ts-L8C">
+                    <rect key="frame" x="29" y="163" width="335" height="551"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="551" id="c5B-nv-Odf"/>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="335" id="m7I-fA-vBf"/>
+                    </constraints>
+                </tableView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My  Favorites" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jio-F9-f77">
+                    <rect key="frame" x="29.000000000000007" y="112" width="121.66666666666669" height="43"/>
+                    <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="19"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X75-56-LPu">
+                    <rect key="frame" x="317" y="69" width="47" height="35"/>
+                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" image="xmark" catalog="system"/>
+                    <connections>
+                        <action selector="backButtonTapped:" destination="-1" eventType="touchUpInside" id="Vgp-8C-yhP"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="X75-56-LPu" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="317" id="4wJ-iD-kMY"/>
+                <constraint firstItem="Jio-F9-f77" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="29" id="6lm-iU-Ghb"/>
+                <constraint firstItem="X75-56-LPu" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="10" id="7SV-Qn-BHA"/>
+                <constraint firstItem="2zk-Ts-L8C" firstAttribute="centerY" secondItem="fnl-2z-Ty3" secondAttribute="centerY" id="AsB-SM-XBa"/>
+                <constraint firstItem="2zk-Ts-L8C" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="Bxt-bM-Eie"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="X75-56-LPu" secondAttribute="trailing" constant="29" id="UHD-LD-k3b"/>
+                <constraint firstItem="2zk-Ts-L8C" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.852417" id="aM6-aB-R2g"/>
+                <constraint firstItem="Jio-F9-f77" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.309584" id="bpN-s8-rwP"/>
+                <constraint firstItem="2zk-Ts-L8C" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.646714" id="gl9-Mz-Xac"/>
+                <constraint firstItem="Jio-F9-f77" firstAttribute="top" secondItem="X75-56-LPu" secondAttribute="bottom" constant="8" symbolic="YES" id="hQH-pj-00k"/>
+                <constraint firstItem="2zk-Ts-L8C" firstAttribute="top" secondItem="Jio-F9-f77" secondAttribute="bottom" constant="8" symbolic="YES" id="wco-6I-cbN"/>
+                <constraint firstItem="Jio-F9-f77" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="53" id="yrA-E9-rIc"/>
+            </constraints>
+            <point key="canvasLocation" x="46.564885496183201" y="-11.267605633802818"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="xmark" catalog="system" width="128" height="113"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
